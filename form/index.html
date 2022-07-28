@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cmnt">
+      <p>Please fill the form below to resister yourself on the website. </p>
+    </div>
+    <div class="container">
+      <br>
+      <h3  class="ft">Registration form</h3><br>
+      <hr>
+      <form class="frm" >
+        <table>
+
+          <tr>
+            <td><label for="fname" class="name1" >First Name :</label></td>
+            <td><input type="text" required placeholder="First Name" class="inp"><br></td>
+          </tr>
+
+          <tr>
+           <td><label for="mname" class="name">Middel Name :</label></td> 
+           <td><input type="text" required placeholder="Middel Name" class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="lname"  class="name">Last Name :</label></td>
+            <td><input type="text"  required placeholder="last Name" class="inp"><br></td>
+          </tr> 
+
+          <tr>
+              <td><label for="dob" class="name">Date Of Birth :</label></td>
+              <td><input type="date" required placeholder="Date of Birth" class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="gender" class="name">Gender :</label></td>
+            <td>
+                <input type="radio" class="radio">&nbsp;<span>Male</span>
+                <input type="radio" class="radio">&nbsp;<span>Female</span>
+                <input type="radio" class="radio">&nbsp;<span>Prefer not to say</span><br>
+            </td>
+          </tr>
+
+          <tr>
+              <td><label for="cntnbr" class="name">Contact Number :</label></td>
+              <td><input type="text" required placeholder="Mobile Number" maxlength="10" minlength="10"  class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="email"  class="name" >Email Id :</label></td>
+            <td><input type="email"  required placeholder="Email Id" class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="username" class="name">Username :</label></td>
+            <td><input type="text" required placeholder="Username" class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="pswd"  class="name">Password :</label></td>
+            <td><input type="password" required placeholder="Password" class="inp"><br></td>
+          </tr>
+
+          <tr>
+            <td><label for="repswd" class="name">confirm password :</label></td> 
+            <td><input type="password" required placeholder="Confirm password" class="inp"><br></td>
+          </tr> 
+      </table>
+       <hr>
+       <br><br>
+       <div >
+        <button type="submit" class="btn" id="bttn">Submit</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset" class="btn" id="bttn">Reset</button>
+       </div>
+     </form>
+    </div>
+</body>
+</html>
